@@ -1,0 +1,13 @@
+package dp.decorator;
+
+public class ExeTimeCalculator implements Calculator{
+
+	private Calculator delegate;
+	@Override
+	public long factorial(long num) {
+		
+		return 0;
+	}
+	
+
+}

@@ -1,0 +1,13 @@
+package sec03.exam02;
+
+public class SoundEx {
+	private static void printSound(Soundable soundable) {
+		System.out.println(soudable.soudn());
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

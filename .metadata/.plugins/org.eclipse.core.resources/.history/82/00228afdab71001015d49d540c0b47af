@@ -1,0 +1,12 @@
+package dp.decorator;
+
+public class Main2 {
+
+	public static void main(String[] args) {
+		ExeTimeCalculator call1 = new ExeTimeCalculator(new ImpleCalculator());
+		System.out.println(call1.factorial(5));
+		
+
+	}
+
+}

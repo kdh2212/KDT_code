@@ -1,0 +1,14 @@
+package dp.iterator;
+
+public class Main {
+
+	public static void main(String[] args) {
+		BookShelf bookShelf = new BookShelf(4);
+		bookShelf.appendBook(new Book("80일간의 세계일주"));
+		bookShelf.appendBook(new Book("BIBLE"));
+		bookShelf.appendBook(new Book("신데렐라"));
+		bookShelf.appendBook(new Book("wkdqkfwkd"));
+
+	}
+
+}

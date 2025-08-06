@@ -1,0 +1,8 @@
+package dp.iterator;
+
+import java.util.Iterator;
+
+public class BookShelfIterator implements Iterator<Book>{
+	
+	
+}

@@ -1,0 +1,13 @@
+package sec01.exam04;
+
+public class RemoteControlEx {
+	private static void printRemoteControl(RemoteControl remoteControl) {
+		System.out.println(remoteControl.turnOn());
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

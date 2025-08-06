@@ -1,0 +1,17 @@
+package dp.decorator;
+
+public class Main {
+
+	public static long fac(long num) {
+		long res = 1;
+		for(long i=1; i <= num; i++) {
+			res *= i;
+		}
+		return res;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

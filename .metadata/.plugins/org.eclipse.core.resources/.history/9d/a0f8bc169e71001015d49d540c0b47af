@@ -1,0 +1,30 @@
+package dp.iterator;
+
+import java.util.Iterator;
+
+public class BookShelf implements Iterable<Book>{
+
+	private Book[] books; // 도서 배열
+	private int last = 0; // 배열의 인덱스
+	
+	public BookShelf(int maxsize) { // 배열의 생성
+		this.books = new Book[maxsize];
+	}
+	
+	public Book getBookAt(int index) {
+		return books[index];
+	}
+	public void appendBook(Book book) {
+		this.books[last] = book;
+		last++;
+	}
+	public int getLength() {
+		return last;
+	}
+	@Override
+	public Iterator<Book> iterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

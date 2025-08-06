@@ -1,0 +1,6 @@
+package sec01.exam04;
+
+public class MyClass {
+	RemoteControl rc = new Television();
+
+}

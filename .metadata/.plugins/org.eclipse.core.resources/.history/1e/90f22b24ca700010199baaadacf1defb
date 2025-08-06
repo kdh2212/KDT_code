@@ -1,0 +1,8 @@
+package sec03.exam02;
+
+public interface Animal {
+	public abstract void sound(); // 추상 메소드
+	
+	
+
+}

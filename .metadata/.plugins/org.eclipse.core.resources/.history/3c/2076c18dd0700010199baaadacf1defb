@@ -1,0 +1,19 @@
+package sec01.exam04;
+
+public class RemoteControlEx {
+	
+	public static void main(String[] args) {
+		Television tv = new Television();
+		Audio audio = new Audio();
+		
+		tv.turnOn();
+		tv.setVolume(10);
+		tv.turnOff();
+		
+		audio.turnOn();
+		audio.setVolume(0);
+		audio.turnOff();
+
+	}
+
+}

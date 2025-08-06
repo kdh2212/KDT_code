@@ -1,0 +1,22 @@
+package dp.iterator;
+
+import java.util.Iterator;
+
+public class BookShelfIterator implements Iterator<Book>{
+	private BookShelf bookShelf;
+	private int index;
+
+	@Override
+	public boolean hasNext() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Book next() {
+		// TODO Auto-generated method stub
+		return null;
+	} 
+	
+	
+}

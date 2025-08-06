@@ -1,0 +1,12 @@
+package sec01.exam04;
+
+public class Outter {
+	public void method1() {
+		class Inner {
+			public void method() {
+				
+			}
+		}
+	}
+
+}

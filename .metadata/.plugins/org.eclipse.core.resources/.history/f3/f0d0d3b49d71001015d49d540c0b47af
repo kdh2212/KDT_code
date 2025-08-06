@@ -1,0 +1,15 @@
+package dp.iterator;
+
+import java.util.Iterator;
+
+public class BookShelf implements Iterable<Book>{
+
+	private Book[] books;
+	private int last = 0;
+	@Override
+	public Iterator<Book> iterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

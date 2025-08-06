@@ -1,0 +1,10 @@
+package dp.adapter;
+
+public class PrintBanner extends Banner {
+
+	public PrintBanner(String string) {
+		super(string);
+		
+	}
+
+}

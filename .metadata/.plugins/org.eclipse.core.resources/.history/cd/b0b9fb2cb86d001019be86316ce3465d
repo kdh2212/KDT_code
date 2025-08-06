@@ -1,0 +1,25 @@
+package sec03.check03;
+
+abstract class HttpServlet {
+	public abstract void service(); // 추상 메소드 정의
+	
+}
+
+class LoginServlet() extends HttpServlet{
+	
+	
+}
+public class HttpServletExample {
+
+	public static void main(String[] args) {
+		method(new LoginServlet());
+
+	}
+	
+	public static void method(HttpServlet servlet) {
+		servlet.service();
+		
+		}
+
+	}
+}

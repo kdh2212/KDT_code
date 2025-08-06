@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<a href = "https://www.naver.com">네이버</a>
+<a href = "test.jsp">테스트 페이지</a>
+<img src ="https://www.google.com/imgres?q=%EA%B3%A0%EC%96%91%EC%9D%B4&imgurl=https%3A%2F%2Fi.namu.wiki%2Fi%2FabZPxKt_L98I8ttqw56pLHtGiR5pAV4YYmpR3Ny3_n0yvff5IDoKEQFof7EbzJUSZ_-uzR5S7tzTzGQ346Qixw.webp&imgrefurl=https%3A%2F%2Fnamu.wiki%2Fw%2F%25EA%25B3%25A0%25EC%2596%2591%25EC%259D%25B4&docid=FIVAl-Pt0-9lEM&tbnid=tmwYV7CMSBZXoM&vet=12ahUKEwjJxomgveaOAxXpp1YBHUZmGjsQM3oECCcQAA..i&w=1024&h=768&hcb=2&ved=2ahUKEwjJxomgveaOAxXpp1YBHUZmGjsQM3oECCcQAA"/>
+<h1> 홈페이지 </h1>
+<table border = 1>
+<tr>
+<td>가나다</td> <td>가나다</td> <td>가나다</td> 
+</tr>
+<tr>
+<td>가나다</td> <td>가나다</td> <td>가나다</td> 
+</tr>
+<tr>
+<td>가나다</td> <td>가나다</td> <td>가나다</td> 
+</tr>
+</table>
+</body>
+</html>

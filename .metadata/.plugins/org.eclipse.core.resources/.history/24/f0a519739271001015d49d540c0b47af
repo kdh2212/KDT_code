@@ -1,0 +1,22 @@
+package exception;
+
+import java.util.Scanner;
+
+public class ExceptionTest {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		try {
+			System.out.print("입력>");
+			int num = scan.nextInt();
+			System.out.println(num);
+		}catch(InputMismatchException e) {
+			
+		}
+		
+//		String str = scan.nextLine();
+//		System.out.println(str);
+
+	}
+
+}

@@ -1,0 +1,27 @@
+<%@page import="java.util.Date"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+String str = "안녕";
+Date now = new Date();
+int sum = 0;
+for(int i=1; i<=10; i++){
+	sum +=i;
+}
+%>
+
+<%=1+100 %>
+<%=sum %>
+</br>
+
+<%=str %>
+<%=now %>
+</body>
+</html>

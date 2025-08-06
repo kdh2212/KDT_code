@@ -1,0 +1,11 @@
+package sec01.exam04;
+
+public class B1Ex {
+
+	public static void main(String[] args) {
+		A1 a1; // 인터페이스 타입으로 변수를 선언할 수 있다.
+		A1 a2 = new B1();
+
+	}
+
+}

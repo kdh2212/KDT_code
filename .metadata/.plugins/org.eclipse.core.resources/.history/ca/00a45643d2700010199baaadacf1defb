@@ -1,0 +1,48 @@
+package sec01.exam04;
+
+public class RemoteControlEx {
+	
+	public static void main(String[] args) {
+		RemoteControl rc; 
+//		rc = new Television();
+//		rc = new Audio();
+		rc = new RemoteControl() { // 익명의 구현 객체 생성 
+
+			@Override
+			public void turnOn() {
+				System.out.println("Video를 켭니다.");
+				
+			}
+
+			@Override
+			public void turnOff() {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void setVolume(int volume) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+		};
+		
+//		Television tv = new Television();
+//		Audio audio = new Audio();
+		
+//		tv.turnOn();
+//		tv.setVolume(10);
+//		tv.turnOff();
+//		
+//		audio.turnOn();
+//		audio.setVolume(0);
+//		audio.turnOff();
+		
+//		rc.turnOn();
+//		rc.setVolume(10);
+//		rc.turnOff();
+
+	}
+
+}

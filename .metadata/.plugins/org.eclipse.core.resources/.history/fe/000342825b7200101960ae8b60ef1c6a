@@ -1,0 +1,23 @@
+package dp.templateMethod;
+
+public class charDisplay extends AbstractDisplay{
+
+	@Override
+	public void open() {
+		
+		
+	}
+
+	@Override
+	public void print() {
+		
+		
+	}
+
+	@Override
+	public void close() {
+		
+		
+	}
+
+}

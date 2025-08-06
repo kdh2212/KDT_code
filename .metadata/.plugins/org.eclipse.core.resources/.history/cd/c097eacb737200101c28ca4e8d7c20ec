@@ -1,0 +1,11 @@
+package chap11.exam01;
+
+public class MemberEx {
+
+	public static void main(String[] args) {
+		Member obj1 = new Member("blue");
+		Member obj2 = new Member("blue");
+		Member obj3 = new Member("red");
+	}
+
+}

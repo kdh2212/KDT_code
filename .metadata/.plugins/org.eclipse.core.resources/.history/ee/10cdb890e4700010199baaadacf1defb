@@ -1,0 +1,14 @@
+package sec01.exam01;
+
+public class Exception4 {
+	
+	public static void check(int weight) {
+		
+	}
+
+	public static void main(String[] args) {
+		check(60);
+
+	}
+
+}

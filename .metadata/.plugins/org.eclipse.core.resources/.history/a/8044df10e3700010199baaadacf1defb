@@ -1,0 +1,15 @@
+package sec01.exam01;
+
+public class Exception2 {
+
+	public static void check()  {
+		System.out.println("내부 메서드");
+		int div = 5/0;
+	}
+	
+	public static void main(String[] args) {
+		check();
+
+	}
+
+}
