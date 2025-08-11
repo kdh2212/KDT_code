@@ -1,0 +1,17 @@
+package ramda;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+//		MyFunctionalInterface fi = ()-> System.out.println("method()"); // 한줄이면 이것도 가능			
+//		 fi.method();
+		
+		MyFunctionalInterface fi3 = (x,y) -> {
+			return x + y;
+		};
+		fi3.method(100, "가나다");
+
+	}
+
+}

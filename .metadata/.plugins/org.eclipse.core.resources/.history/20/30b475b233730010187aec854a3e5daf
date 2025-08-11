@@ -1,0 +1,17 @@
+package ramda;
+
+public class Main {
+
+	public static void main(String[] args) {
+		MyFunctionalInterface fi = new MyFunctionalInterface() {
+			
+			@Override
+			public void method() {
+				System.out.println("method()");
+				
+			}
+		};
+
+	}
+
+}

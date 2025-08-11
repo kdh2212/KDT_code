@@ -1,0 +1,22 @@
+<%@page import="study.Student"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+String str = "홍길동"; // 값
+request.setAttribute("hong", str); // hong은 넘어가는 키 정도로 생각
+
+Student stu = new Student("김하나","서울시","010-2232-1123");
+
+request.setAttribute("kim", stu);
+%>
+<jsp:forward page="to.jsp"/>
+<h1>from.jsp</h1>
+</body>
+</html>

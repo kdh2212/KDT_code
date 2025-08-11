@@ -1,0 +1,7 @@
+package nested;
+
+public class A1 {
+	int field;
+	void method1() {}
+
+}

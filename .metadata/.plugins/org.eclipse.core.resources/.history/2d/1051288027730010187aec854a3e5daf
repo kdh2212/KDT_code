@@ -1,0 +1,12 @@
+package sec01.exam06;
+
+public class Button {
+	OnClickListener listener;
+	
+	
+	
+	static interface OnClickListener{
+		void OnClick();
+	}
+
+}

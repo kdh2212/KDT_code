@@ -1,0 +1,10 @@
+package sec01.exam01;
+
+class Parent{
+	void method1() {}
+}
+class Child extends Parent{}
+
+public class A {
+	Parent field1 = new Parent();
+}

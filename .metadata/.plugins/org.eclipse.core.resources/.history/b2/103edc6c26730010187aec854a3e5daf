@@ -1,0 +1,30 @@
+package nested;
+
+public class A1 {
+	static int field1;
+	static void method1() {}
+
+	class B{
+		void method() {
+			field1 = 10;
+//			A1.this.method1();
+			method1();
+		}
+	}
+	
+	// static이 붙으면 
+	static class C { 
+		void method2() {
+			field1 = 10;
+			method1();
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+//		B b1 = new B(); // 이렇게 할 수 없다.
+//		B b1 = new A1.B(); // 도 안된다. 할려면 static이 붙어야 한다.
+		C c1 = new A1.C();
+	}
+}
+

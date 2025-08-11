@@ -1,0 +1,19 @@
+package nested;
+
+public class A1 {
+	int field1;
+	void method1() {}
+
+	class B{
+		void method() {
+			field1 = 10;
+//			A1.this.method1();
+			method1();
+		}
+	}
+	
+	static class C{
+		field1 = 10;
+		method1();
+	}
+}

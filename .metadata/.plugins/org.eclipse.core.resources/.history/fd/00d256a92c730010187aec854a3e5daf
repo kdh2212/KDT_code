@@ -1,0 +1,31 @@
+package sec01.exam01;
+
+class Parent{
+	void method1() {}
+}
+class Child extends Parent{}
+
+public class A {
+//	Parent ff = new Child();
+	Parent field1 = new Parent() {
+		// 익명 객체
+		// 자식 객체이다.
+		@Override
+		void method1() {
+			// TODO Auto-generated method stub
+			super.method1();
+		}
+		
+	};
+	
+	Parent field2 = new Parent() {};
+	
+	void method2() {
+		Parent field3 - new Parent() {};
+		
+		method3(new Parent);
+	}
+	
+	void method3(Parent parent) {}
+	
+}
